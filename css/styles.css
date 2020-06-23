@@ -1,0 +1,18 @@
+
+.header-container {
+    background-color: grey;
+}
+
+.header-title {
+    display: inline-block;
+    height: 100px;
+}
+
+.header-img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header-form {
+    display: inline-block;
+}
