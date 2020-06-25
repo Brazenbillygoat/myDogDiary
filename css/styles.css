@@ -1,6 +1,53 @@
+/* element styles */
+body {
+    background-color: #f4f7c5;
+    margin: 0;
+}
+
+p {
+    letter-spacing: 1em;
+}
+
+
+/* everything contained in the header element */
+.header-container {
+    background-color: #aacdbe;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 65px;
+}
+
+.header-title {
+    display: inline-block;
+    height: auto;
+    margin: 15px 10px;
+
+    width: auto;
+}
+
+.header-img {
+    border-radius: 50%;
+    height: 50px;
+    padding-top: 8px;
+    position: absolute;
+}
+
+/* everything contained in the body-container */
+.body-container {
+    position: relative;
+    float: left;
+    font-family: 'Piedra', cursive;
+    letter-spacing: .1em;
+
+}
 
 fieldset {
     border-radius: 1%;
+    border: thick double black;
 }
 
 .btn-primary {
@@ -8,25 +55,23 @@ fieldset {
 }
 
 .diary-title {
-    display: block;
-    margin: 10px;
+    display: inline-block;
+    margin: 5px;
 }
 
 .diary-entry {
     display: block;
-    margin: 10px;
+    margin: 5px;
 }
 
-.header-title {
+#entry-date {
     display: inline-block;
-    height: 100px;
 }
 
-.header-img {
-    height: 100px;
-    border-radius: 50%;
+.body-form {
+    background-color: #f4f7c57f;
+    position: absolute;
+    top: 180px;
+    left: 200px;
 }
 
-.header-form {
-    display: block;
-}

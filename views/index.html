@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
   <title>Dog Diary</title>
 </head>
 
@@ -13,26 +14,43 @@
   <div class="header-container">
     <h1 class="header-title">My Diary</h1>
     <img class="header-img" src="../Images/studiousdog.jpg" alt="Picture of a dog.">
+  </div>
 
-    <form class="header-form">
-      <fieldset>
+  <div class="body-container">
+    <img class="body-img" src="../Images/dog-park.png">
+    <form>
+      <fieldset class="body-form">
         <legend>Diary Entry Form</legend>
         <label class="diary-title">
           Title
           <br>
           <input type="text" placeholder="title">
         </label>
+        <label id="entry-date">
+          Date
+          <br>
+          <input type="date" id="date-input">
+        </label>
         <label class="diary-entry">
           Entry
           <br>
-          <textarea name="yourMessage" rows="3" cols="70" placeholder=`\${entryPlaceholder}`>`Hi \${entryPlaceholder}`</textarea>
+          <textarea name="yourMessage" rows="3" cols="70" placeholder="text"></textarea>
         </label>
 
-        <button class="btn-primary">Login</button>
+        <button class="btn-primary">Submit</button>
       </fieldset>
     </form>
-
   </div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere dolor quis purus auctor consectetur et in lorem. Praesent cursus sem ex, nec rhoncus metus pulvinar eu. In hac habitasse platea dictumst. Duis ac varius velit, id suscipit ex. Proin auctor a tortor eget luctus. Proin vulputate blandit ex, in volutpat magna elementum nec. Proin imperdiet sollicitudin tempus. Ut elementum turpis eu libero malesuada dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat urna et justo tempor ultrices. Sed in dui sem. Aenean quis elit sit amet sem imperdiet elementum. Sed a egestas orci.
+
+    Maecenas lorem ante, ornare ut pharetra eu, tincidunt ut odio. Duis malesuada rhoncus erat, id lobortis dolor semper id. Etiam eget imperdiet ligula, sit amet faucibus arcu. Curabitur vulputate ante id erat mattis hendrerit. Cras elementum turpis at tincidunt eleifend. Sed mattis ullamcorper metus, nec condimentum felis suscipit a. Donec ultrices, ligula sed ultrices rhoncus, eros lectus interdum augue, quis egestas turpis tellus non massa. Donec malesuada elit tincidunt augue mollis ornare. Donec et molestie nulla, sit amet dapibus mi. In quam nisl, aliquet et pharetra sit amet, hendrerit id urna. In at lorem nec ipsum feugiat pulvinar et in erat. Quisque eleifend justo id tempor accumsan.
+    
+    Curabitur tellus dolor, maximus id volutpat congue, tempus nec enim. Vivamus id diam tempor, faucibus elit eu, molestie tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum eu tellus tempus neque congue porttitor et eget nibh. In nec interdum mauris. Morbi leo eros, laoreet eu dolor ac, fringilla dictum elit. Sed quis porta orci. In tincidunt nisi turpis, consequat semper urna tempus eget. Ut eu enim congue, iaculis augue sit amet, dictum augue. Donec id pellentesque lectus, eget semper quam. Aenean quis diam nunc. Nam luctus mauris at mauris lacinia consequat quis a arcu.
+    
+    Donec fringilla suscipit dapibus. Aliquam sem diam, lacinia sit amet pellentesque vitae, malesuada quis lectus. Aliquam pharetra, augue iaculis suscipit pretium, tortor sapien laoreet tortor, quis consectetur velit nisi a erat. Pellentesque varius, enim vitae blandit porta, nunc orci suscipit urna, ac convallis lacus felis laoreet arcu. Etiam ultrices consectetur nibh non congue. Nunc scelerisque enim elementum nisi convallis iaculis. Nulla magna dui, placerat consectetur ex vulputate, laoreet rutrum mi. Phasellus in enim libero. Sed ut consectetur velit, sed imperdiet ipsum. Ut lacinia egestas metus at tristique.
+    
+    Donec vel auctor tellus, ac commodo est. Duis at convallis elit. Vivamus metus urna, faucibus nec convallis id, ultricies eget lectus. Sed posuere lorem at fringilla euismod. Duis id sem at risus congue vestibulum id eu mi. Fusce in tempus tellus. Sed dictum ipsum ac congue pulvinar. Quisque vel velit mollis, lacinia urna eget, bibendum quam. Nullam consequat aliquet justo, vel maximus quam fermentum sit amet. Maecenas posuere velit eu libero laoreet commodo. Donec eget tellus accumsan, accumsan quam sed, posuere odio. Donec ac arcu semper nisl vehicula vehicula in nec odio.</p>
+
   <script type="text/javascript" src="../js/app.js"></script>
 </body>
 
