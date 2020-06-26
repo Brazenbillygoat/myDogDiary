@@ -14,36 +14,46 @@ p {
     background-color: #aacdbe;
     display: block;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    z-index: 1;
+    /* z-index: 1; */
     height: 65px;
 }
 
 .header-title {
     display: inline-block;
     height: auto;
-    margin: 15px 10px;
-
+    margin: 0px 10px;
+    position: relative;
+    top: -15px;
     width: auto;
 }
 
 .header-img {
+    display: inline-block;
     border-radius: 50%;
     height: 50px;
     padding-top: 8px;
-    position: absolute;
 }
 
 /* everything contained in the body-container */
 .body-container {
-    position: relative;
-    float: left;
+    background-color: white;
+    background-image: url('../Images/dog-park.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: block; */
+    height: 500px;
+    padding-top: 65px;
     font-family: 'Piedra', cursive;
     letter-spacing: .1em;
-
+    width: 100%;
 }
+
+/* .body-img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+} */
 
 fieldset {
     border-radius: 1%;
@@ -70,8 +80,10 @@ fieldset {
 
 .body-form {
     background-color: #f4f7c57f;
-    position: absolute;
-    top: 180px;
-    left: 200px;
+    position: relative;
+    margin-bottom: 10px;
+    bottom: -45%;
+    left: 30%;
+    width: 650px;
 }
 
